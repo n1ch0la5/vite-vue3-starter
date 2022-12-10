@@ -1,6 +1,9 @@
 # Vue 3 + Vite
 
-## Main packages
+### Installation
+    npm install
+    npm run dev
+### Main packages
 * Vite
 * Vue3
 * Vue Router
