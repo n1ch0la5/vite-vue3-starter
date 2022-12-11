@@ -19,11 +19,11 @@ const { increment, reset } = store;
   <p class="mb-4 italic text-gray-500">{{ description }}</p>
 
   <div class="flex justify-center items-center">
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="../assets/tailwind.svg" class="p-3 h-[76px] will-change-[filter] hover:drop-shadow-[0_0_18px_rgba(5,182,213,0.67)]" alt="Vite logo" />
+    <a href="https://tailwindcss.com/docs/installation" target="_blank">
+      <img src="../assets/tailwind.svg" class="p-3 h-[76px] will-change-[filter] hover:drop-shadow-[0_0_18px_rgba(5,182,213,0.67)]" alt="Tailwind logo" />
     </a>
     <a href="https://pinia.vuejs.org/introduction.html" target="_blank">
-      <img src="../assets/pinia.svg" class="p-3 h-[76px] will-change-[filter] hover:drop-shadow-[0_0_18px_rgba(255,226,104,0.67)]" alt="Vue logo" />
+      <img src="../assets/pinia.svg" class="p-3 h-[76px] will-change-[filter] hover:drop-shadow-[0_0_18px_rgba(255,226,104,0.67)]" alt="Pinia logo" />
     </a>
   </div>
 
