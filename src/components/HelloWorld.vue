@@ -16,7 +16,7 @@ const { increment, reset } = store;
 
 <template>
   <h1 class="mt-12 mb-1 font-bold">{{ title }}</h1>
-  <p class="mb-4 italic text-gray-500">{{ description }}</p>
+  <p class="text-lg mb-4 italic text-gray-600 dark:text-gray-300">{{ description }}</p>
 
   <div class="flex justify-center items-center">
     <a href="https://tailwindcss.com/docs/installation" target="_blank">
@@ -32,7 +32,7 @@ const { increment, reset } = store;
     @click="increment"
     class="rounded bg-indigo-500 text-gray-50 dark:bg-gray-900"
     >count is {{ count }} ({{ double }})</button>
-    <p class="text-indigo-500 dark:text-gray-300 cursor-pointer mt-1"
+    <p class="text-indigo-500 cursor-pointer mt-1"
       @click="reset">
       reset
     </p>
