@@ -32,7 +32,7 @@ const { increment, reset } = store;
     @click="increment"
     class="rounded bg-indigo-500 text-gray-50 dark:bg-gray-900"
     >count is {{ count }} ({{ double }})</button>
-    <p class="text-gray-300 cursor-pointer mt-1"
+    <p class="text-indigo-500 dark:text-gray-300 cursor-pointer mt-1"
       @click="reset">
       reset
     </p>
