@@ -22,7 +22,7 @@ const { increment, reset } = store;
     <a href="https://vitejs.dev" target="_blank">
       <img src="../assets/tailwind.svg" class="p-3 h-[76px] will-change-[filter] hover:drop-shadow-[0_0_18px_rgba(5,182,213,0.67)]" alt="Vite logo" />
     </a>
-    <a href="https://vuejs.org/" target="_blank">
+    <a href="https://pinia.vuejs.org/introduction.html" target="_blank">
       <img src="../assets/pinia.svg" class="p-3 h-[76px] will-change-[filter] hover:drop-shadow-[0_0_18px_rgba(255,226,104,0.67)]" alt="Vue logo" />
     </a>
   </div>
