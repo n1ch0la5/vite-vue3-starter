@@ -10,7 +10,7 @@ defineProps({
 
 const store = useCounterStore();
 const { count, double } = storeToRefs(store);
-const { increment } = store;
+const { increment, reset } = store;
 //const count = ref(0)
 </script>
 
@@ -32,6 +32,10 @@ const { increment } = store;
     @click="increment"
     class="rounded bg-indigo-500 text-gray-50 dark:bg-gray-900"
     >count is {{ count }} ({{ double }})</button>
+    <p class="text-gray-300 cursor-pointer mt-1"
+      @click="reset">
+      reset
+    </p>
     <p class="my-4">
       Edit
       <code>components/HelloWorld.vue</code> to test HMR
