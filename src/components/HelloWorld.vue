@@ -15,7 +15,7 @@ const { increment, reset } = store;
 </script>
 
 <template>
-  <h1 class="mt-12 mb-1 font-bold">{{ title }}</h1>
+  <h1 class="mt-10 mb-1 font-bold text-5xl">{{ title }}</h1>
   <p class="text-lg mb-4 italic text-gray-600 dark:text-gray-300">{{ description }}</p>
 
   <div class="flex justify-center items-center">
@@ -30,9 +30,9 @@ const { increment, reset } = store;
   <div class="card p-8">
     <button type="button" 
     @click="increment"
-    class="rounded bg-indigo-500 text-gray-50 dark:bg-gray-900"
+    class="rounded bg-indigo-500 hover:bg-indigo-400 text-gray-50 dark:bg-gray-900 border border-transparent dark:hover:border-[#646cff] py-2 px-6 text-base font-normal cursor-pointer transition-all duration-150"
     >count is {{ count }} ({{ double }})</button>
-    <p class="text-indigo-500 cursor-pointer mt-1"
+    <p class="text-indigo-400 hover:text-indigo-500 cursor-pointer mt-1"
       @click="reset">
       reset
     </p>
@@ -48,13 +48,13 @@ const { increment, reset } = store;
 
   <p class="my-4">
     Check out
-    <a href="https://tailwindcss.com/docs/installation" target="_blank"
+    <a class="text-indigo-400 hover:text-indigo-500" href="https://tailwindcss.com/docs/installation" target="_blank"
       >create-vue</a
     >, the official Vue + Vite starter
   </p>
   <p class="my-4">
     Install
-    <a href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
+    <a class="text-indigo-400 hover:text-indigo-500" href="https://github.com/johnsoncodehk/volar" target="_blank">Volar</a>
     in your IDE for a better DX
   </p>
   <p class="text-gray-500">Click on the Vite and Vue logos to learn more</p>

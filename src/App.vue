@@ -2,7 +2,7 @@
 import DarkMode from './components/DarkMode.vue'
 </script>
 <template>
-  <div>
+  <div class=" max-w-3xl mx-auto text-center p-12">
     <nav class="mb-6">
       <router-link to="/" exact>Home</router-link> |
       <router-link to="/about">About</router-link>
